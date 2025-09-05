@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-display: swap;
+}
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+ul,ol {list-style: none;}
+a {text-decoration: none; color: #333;}
+
+body {font-family: 'Pretendard';}
+
+
+/* header */
+header {width: 100%; height: 50px; display: flex; justify-content: space-between;
+    padding: 0 20px; align-items: center; background-color: gold;}
+.logo1 {width: 30px; height: 30px;  background-color: aqua;}
+nav {width: 410px; height: 30px; display: flex; justify-content: space-between;  background-color: blueviolet;}
+nav ul {width: 300px; height: 100%; background-color: darkgoldenrod;}
+.login {width: 80px; height: 30px;background-color: blue;}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {width: 880px; height: 125px; margin: 0 auto; background-color: orange;}
+.f1 {width: 150px; height: 15px; font-size: 17px;  background-color: forestgreen;}
+#f2 {width: 100px; height: 15px; font-size: 10px;  background-color: fuchsia;}
+.f3 {width: 800px;height: 15px; font-size: 13px; background-color: aqua;}
+.f3 ul {display: flex;}
+.f4 {width: 500px;height: 15px ; font-size: 10px; display: flex; background-color: darkgray;}
+.f5 {width: 800px; height: 15px; font-size: 13px; background-color: blueviolet;}
+.ins {border: #333; display: flex;}
+.yout {border: #333;display: flex;}
+.kao {border: #333; display: flex;}
+
+
+
+
+
+

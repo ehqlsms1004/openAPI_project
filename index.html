@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>밀리의 서재</title>
+
+    <!-- 폰트 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo1"></div>
+        <nav>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            <div class="login">
+                <button type="button" onclick="alert">로그인</button>
+            </div>
+        </nav>
+
+    </header>
+
+    <div id="slider">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </div>
+
+    <div class="NEW">
+        <!-- Swiper -->
+        <div class="swiper new_item">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="f1">(주)kt 밀리의서재</div>
+        <a href="#" id="f2">사업자 정보 펼쳐보기∨</a>
+        <div class="f3">
+            <ul>
+                <li>이용약관></li>
+                <li>개인정보처리방침></li>
+                <li>청소년보호정책></li>
+                <li>고객센터></li>
+                <li>B2B문의></li>
+                <li>콘텐츠 제휴문의></li>
+                <li>뷰어 다운로드></li>
+                <li>회사 소개></li>
+            </ul>
+        </div>
+        <div class="f4">
+            <p>ⓒ2025. (주)kt 밀리의서재Co.Ltd.All rights reserved.</p>
+        </div>
+        <div class="f5">
+            <p>정보보호관리체계 ISMS 인증획득 | 인증범위 : (주)kt 밀리의서재 대고객 서비스 | 유효기간:2023-05-03-2026-05-02</p>
+        </div>
+        <div class="ins"><i class="fa-brands fa-instagram"></i></div>
+        <div class="yout"><i class="fa-brands fa-youtube"></i></div>
+        <div class="kao"><i class="fa-brands fa-kakao-talk"></i></div>
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        // NEW
+        var swiper2 = new Swiper(".new_item", {
+            slidesPerView: 4,
+            spaceBetween: 30,
+         
+           navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
