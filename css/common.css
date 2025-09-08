@@ -36,11 +36,14 @@ body {font-family: 'Pretendard';}
 
 /* header */
 header {width: 100%; height: 50px; display: flex; justify-content: space-between;
-    padding: 0 20px; align-items: center; background-color: gold;}
-.logo1 {width: 30px; height: 30px;  background-color: aqua;}
-nav {width: 410px; height: 30px; display: flex; justify-content: space-between;  background-color: blueviolet;}
-nav ul {width: 300px; height: 100%; background-color: darkgoldenrod;}
-.login {width: 80px; height: 30px;background-color: blue;}
+    padding: 0 20px; align-items: center;}
+.logo{width: 130px; height: 30px;}
+header .logo img {width: 100%;}
+nav {width: 410px; height: 20px; display: flex; justify-content: space-between;}
+nav ul {width: 300px; height: 100%; display: flex; justify-content: space-evenly; }
+nav ul li {padding: 0 10px; font-size: 16px;}
+.login {width: 60px; height: 20px; border:none; cursor: pointer; border-radius: 100px; font-size: 11px; line-height: 20px; letter-spacing: -.6; color: #fff; text-align: center; background-color: #333;}
+.login-text {padding: 6px 12px; color: #fff; border-radius: 4px;}
 
 
 
@@ -52,16 +55,16 @@ nav ul {width: 300px; height: 100%; background-color: darkgoldenrod;}
 
 
 /* footer */
-footer {width: 880px; height: 125px; margin: 0 auto; background-color: orange;}
-.f1 {width: 150px; height: 15px; font-size: 17px;  background-color: forestgreen;}
-#f2 {width: 100px; height: 15px; font-size: 10px;  background-color: fuchsia;}
-.f3 {width: 800px;height: 15px; font-size: 13px; background-color: aqua;}
+footer {width: 100%; height: 125px; margin: 0 auto;}
+.f1 {width: 1500px; height: 50px; padding-left: 20px ; font-size: 17px; display: flex; justify-content: space-between; align-items: center; }
+.emo {gap: 10px;display: flex; }
+.emo img {height: 20px; margin-left: 10px;}
+.emo a {color: #333; text-decoration: none;}
+#f2 {width: 100%; height: 15px; padding: 20px; font-size: 10px; }
+.f3 {width: 800px;height: 15px; padding: 20px; font-size: 13px; }
 .f3 ul {display: flex;}
-.f4 {width: 500px;height: 15px ; font-size: 10px; display: flex; background-color: darkgray;}
-.f5 {width: 800px; height: 15px; font-size: 13px; background-color: blueviolet;}
-.ins {border: #333; display: flex;}
-.yout {border: #333;display: flex;}
-.kao {border: #333; display: flex;}
+.f4 {width: 500px;height: 15px ; padding: 20px; font-size: 10px; display: flex;}
+.f5 {width: 800px; height: 15px; padding: 20px; font-size: 13px;}
 
 
 
