@@ -12,23 +12,44 @@
 
 
 /* 이유있는 */
-#slider2 {width: 100%; height: 820px; margin: 0 auto; background-color: rgb(255, 231, 18)} 
+#slider2 {width: 100%; height: 820px; margin: 0 auto; background-color: #fff066; } 
 .mt2 h1 {display: flex; justify-content: center; align-items: center; text-align: center; transform: translateY(50px); font-size: 50px;}
 .mt2 p {display: flex; justify-content: center; transform: translateY(50px);}
+.container1 {width: 100%; max-width: 1000px; margin: 30px auto 0 auto; }
+.grid {display: grid; grid-template-columns: 1fr 1fr; gap:5px; margin-bottom: 10px;}
+.box1 {background-color: white; border-radius:20px ; margin:70px 20px; padding: 40px 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);}
+.box2 {background-color: white; border-radius:20px ; margin:70px 20px; padding: 40px 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);}
+.box3 {background-color: white; border-radius:20px ; margin:0 20px; padding: 50px 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);}
+.box4 {background-color: white; border-radius:20px ; margin:0 20px; padding: 50px 30px; box-shadow: 0 10px 20px rgba(0,0,0,0.1);}
+.box1, .box2, .box3, .box4 {margin: 15px; padding: 40px 30px; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); }
+.box5 {background-color: #ffe25b; padding: 20px 80px; border-radius: 20px; display: flex; justify-content: space-between; gap: 40px; color: #4b4b4b; font-size: 15px; line-height: 1.5; 
+        width: fit-content; margin: 25px auto; box-shadow: 0 4px 10px rgba(0,0,0,0.05);}
 
 /* 당신을 기다리는 */
-#slider3 {width: 100%; height: 880px; margin: 0 auto; background-color:red} 
-.mt3 {width: 100%; height: 300px; margin: 0 auto; background-color: salmon;}
+#slider3 {width: 100%; height: 880px; margin: 0 auto;} 
+.mt3 {width: 100%; height: 300px; margin: 0 auto;}
 .mt3 h1 {display: flex; justify-content: center; align-items: center; text-align: center; transform: translateY(50px); font-size: 50px;}
 .mt3 p {display: flex; justify-content: center; transform: translateY(70px); font-size: 25px;}
-.pt1 {width: 100%; height: 190px;}
-.pt2 {width: 100%; height: 190px;}
-.pt3 {width: 100%; height: 190px;}
 
-#slider4 {width: 100%; height: 820px; margin: 0 auto; background-color: fuchsia} 
-.mt4 {width: 100%; height: 320px; margin: 0 auto; background-color: palevioletred;} 
+.pt1 {width: 100%; height: 190px;  background-size: cover; background-image: url(../img/pt1.png); background-position: center; background-repeat: repeat-x; animation: left 200s linear infinite;}
+.pt2 {width: 100%;height: 190px;  background-size: cover; background-image: url(../img/pt2.png); background-position: center; background-repeat: repeat-x; animation: right 200s linear infinite;}
+.pt3 {width: 100%;height: 190px; display: block; unicode-bidi: isolate; position: relative; background-size: cover; background-image: url(../img/pt3.png); background-position: center; background-repeat: repeat-x; animation: left 200s linear infinite;}
+@keyframes left {
+    0% {background-position: 0 0;}100%{background-position: -10000px 0; }
+}
+@keyframes right {
+    0% {background-position: 0 0;}100%{background-position: 10000px 0; }
+}
+
+
+/* 나만의 */
+#slider4 {width: 100%; height: 820px; margin: 0 auto; background-color: rgb(240, 240, 240)} 
+.mt4 {width: 100%; height: 320px; margin: 0 auto; background-color: rgb(240, 240, 240);} 
 .mt4 h1 {display: flex; justify-content: center; align-items: center; text-align: center; transform: translateY(50px); font-size: 50px;}
 .mt4 p {display: flex; justify-content: center; transform: translateY(70px); font-size: 25px;}
+.vd1 {text-align: center; position: relative;}
+.vd1 video {width: 800px; }
+.vd1 img {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100px; cursor: pointer;} 
 
 #slider5 {width: 100%; height: 1800px; margin: 0 auto; background-color:darkorange}
 .mt5 {width: 100%; height: 350px; margin: 0 auto; background-color:gray}
@@ -48,3 +69,8 @@
 .odio {width: 100%; height: 120px; margin: 0 auto; background-color: aqua;}
 
 #slider9 {width: 100%; height: 700px; margin: 0 auto; background-color:gold} 
+.mt9 {display: flex; justify-content: center; align-items: center; text-align: center; transform: translateY(90px); font-size: 30px;}
+.cbox2 {width: 75%; margin: 20px auto; padding:20px; background-color: white; border-radius: 20px; box-shadow: 10px 10px 40px rgba (0,0,0,0.1);}
+.cbox3 {width: 75%; margin: 20px auto; padding:20px; background-color: white; border-radius: 20px; box-shadow: 10px 10px 40px rgba (0,0,0,0.1);}
+.cbox4 {width: 75%; margin: 20px auto; padding:20px; background-color: white; border-radius: 20px; box-shadow: 10px 10px 40px rgba (0,0,0,0.1);}
+.cbox5 {width: 75%; margin: 20px auto; padding:20px; background-color: white; border-radius: 20px; box-shadow: 10px 10px 40px rgba (0,0,0,0.1);}
