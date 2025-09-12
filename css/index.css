@@ -52,12 +52,33 @@
 .vd1 img {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100px; cursor: pointer;} 
 
 /* 싹 다 무제한 */
-#slider5 {width: 100%; height: 1800px; margin: 0 auto; background-color:darkorange}
-.mt5 {width: 100%; height: 250px; margin: 0 auto; background-color:gray}
+#slider5 {width: 100%; height: 1800px; margin: 0 auto;}
+.mt5 {width: 100%; height: 250px; margin: 0 auto;}
 .mt5 h1 {display: flex; justify-content: center; align-items: center; text-align: center; transform: translateY(50px); font-size: 50px;}
-.mt5 p {display: flex; justify-content: center; transform: translateY(70px); font-size: 25px;}
-.mt51 {width: 65%; margin: 50px auto 0; padding: 80px 0; text-align: center; height: auto; display: flex; flex-flow: row wrap;}
-.mt51 h5 { width: 100%; text-align: left; padding: 10px 0; margin: 0 auto; font-size: 20px; font-weight: 700;}
+.mt5 p {display: flex; justify-content: center; transform: translateY(70px); font-size: 25px; }
+
+.mt51 {width: 1100px; margin: 0 auto ; padding-top: 100px; text-align: center; height: auto; display: flex; flex-flow: row wrap;}
+.mt51 h5 { width: 100%; text-align: left; margin: 0 auto; font-size: 20px; font-weight: 700;}
+
+.book-slider1 {display: flex; justify-content: center; gap: 16px; padding: 50px 250px; scroll-snap-type: x mandatory;}
+.bs1 {flex: 0 0 auto; width: 145px;  height: 210px;  scroll-snap-align: start;justify-content: center;  align-items: center; cursor: pointer; font-size: 14px; background-color: gray;}
+.bs1 img {width: 100%;}
+
+.mt52 {width: 1100px; margin: 0 auto ; padding-top:100px ; text-align: center; height: auto; display: flex; flex-flow: row wrap;}
+.mt52 h5 { width: 100%; text-align: left; margin: 0 auto; font-size: 20px; font-weight: 700;}
+
+.book-slider2 {background-color: rgb(255, 255, 255); display: flex; justify-content: center; gap: 16px; padding: 50px 250px; scroll-snap-type: x mandatory;}
+.bs2 {flex: 0 0 auto; width: 145px;  height: 210px; scroll-snap-align: start;justify-content: center;  align-items: center;cursor: pointer; font-size: 15px; }
+.bs2 img {width: 100%;}
+
+.mt53 {width: 1100px; margin: 0 auto ; padding-top: 100px; text-align: center; height: auto; display: flex; flex-flow: row wrap;}
+.mt53 h5 { width: 100%; text-align: left; padding: 10px 0; margin: 0 auto; font-size: 20px; font-weight: 700;}
+
+.book-slider3 {background-color: rgb(255, 255, 255); display: flex; justify-content: center; gap: 16px; padding: 50px 250px; scroll-snap-type: x mandatory;}
+.bs3 {flex: 0 0 auto; width: 145px;  height: 210px; justify-content: center;  align-items: center;cursor: pointer; font-size: 15px;}
+.bs3 img {width: 100%;}
+
+
 
 /* 끝까지 읽을책 */
 #slider6 {width: 100%; height: 820px; margin: 0 auto;background-color: rgb(240, 240, 240);}
@@ -66,9 +87,9 @@
 .mt6 p {display: flex; justify-content: center; text-align: center; transform: translateY(70px); font-size: 25px;}
 .pick2 {width: 450px; }
 
-.container6 {width: 100%; height:750px; display: flex;  align-items: center; justify-content: center; margin: 16px auto;background-color: rgb(240, 240, 240)}
+.container6 {width: 100%; height:680px; display: flex;  align-items: center; justify-content: center; margin: 16px auto;background-color: rgb(240, 240, 240)}
 .img6 { position: relative; display: flex;  align-items: center; justify-content: center; margin: 0 auto;}
-.c1 {margin: 0 50px; width: 450px; height: 502px; text-align: center; vertical-align: top; border-style: none; pointer-events: none; }
+.c1 { width: 450px; height: 500px; text-align: center; vertical-align: top; border-style: none; pointer-events: none; transform: translateY(-4px);}
 .c2 { bottom: 0; left: 45%; position: absolute; width:  490px ; transform: translate(-50%,-50%);}
 .c3 {position: absolute;transform: translate(-200%,-50%); width: 200px;}
 .c4{position: absolute;transform: translate(200%,-50%); width: 200px;}
@@ -76,12 +97,30 @@
 .c6 {position: absolute; transform: translate(-250%,50%); width: 200px;}
 
 /* 무제한으로 마음껏 */
-#slider7 {width: 100%; height: 820px; margin: 0 auto; background-color:gold}
-.mt7 {width: 100%; height: 300px; margin: 0 auto; background-color: salmon;}
+#slider7 {width: 100%; height: 820px; margin: 0 auto; background-color: #fff066;}
+.mt7 {width: 100%; height: 300px; margin: 0 auto; background-color: #fff066;}
 .mt7 h1 {display: flex; justify-content: center; align-items: center; text-align: center; transform: translateY(50px); font-size: 50px;}
 .mt7 p {display: flex; justify-content: center; transform: translateY(70px); font-size: 25px;}
-.box7 {width: 1200px;  margin:0 175px; padding: 150px; background-color: aquamarine;}
-.mb7 {background-color: white;}
+
+.box7 {width: 1200px; padding-bottom: 200px; margin:0 auto;  height: 600px; display: flex; justify-content: center; align-items: center;background-color: #fff066;}
+.mb7 {background-color: white; width: 400px; height: 400px; border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.1);  color: #333; text-align: left; }
+.st1 strong {font-size: 18px; font-weight: bold; }
+.st1 p {color: #666; font-size: 14px; margin-top: 4px;}
+
+.st3img { height: 24px; vertical-align:auto;}
+.st3 {display: flex;}
+
+.st4 { margin-top: 25px;}
+.label { font-weight: bold;font-weight: 700; font-size: 18px;}
+.price {font-weight: bold; font-size: 28px; margin-bottom: 4px;}
+.price2 {font-size: 14px; color: black; text-decoration: line-through;}
+
+
+.labe2 { font-weight: bold;font-weight: 700; font-size: 18px;}
+.list2 {margin-top: 30px;padding-left: 16px;font-size: 12px;color: #999;}
+.list li {margin-bottom: 6px;}
+
+
 
 #slider8 {width: 100%; height: 900px; margin: 0 auto; background-color:red}
 .odio {width: 100%; height: 120px; margin: 0 auto; background-color: aqua;}
