@@ -37,12 +37,12 @@
     <div id="slider">
         <div class="main1">
             <div class="mt1">
-                <h2>당신의 일상을<br> 1밀리+ <br></h2>
+                <h2 class="sd1" data-i="0" style="--i:0">당신의 일상을<br> 1밀리+ <br></h2>
                 <h3>독서와 무제한 친해지리</h3>
             </div>
             <div class="main2">
                 <div class="mlogo">
-                    <img src="./img/mlogo1.png" alt="로고2">
+                    <img class="sd1" data-i="1" style="--i:1" src="./img/mlogo1.png" alt="로고2">
                 </div>
             </div>
         </div>
@@ -237,42 +237,132 @@
 
     <!-- 오디오북/밀리뷰어 -->
     <div id="slider8">
-        <ul class="odio">
-            <li class="odk">
-                <img src="./img/head.png" alt="헤드셋">
-                <p>오디오북</p>
-            </li>    
-            <li class="mr">
-                <img src="./img/phone3.png" alt="밀리뷰어">
-                <p>밀리뷰어</p>
-            </li>    
-        </ul>
-            <div class="container8">
-                <div class="audiobook-section">
-                    <div class="audiobook-left">
-                        <div class="icon-title">
-                            <img class="scon1" src="./img/오디오2.png">
-                            <h1>오디오북</h1>
-                        </div>
-                        <p class="subtitle">세상에서 가장 <br>교양있는 수면제</p>
-                        <p class="description"><strong>하루의 시작과 마무리를 오디오북과 함께</strong><br />지하철에서도, 잠들기 전에도 독서하세요</p>
-                        <div class="sb8">
-                            <button class="sb81">1</button>
-                            <button class="sb81">2</button>
-                            <button class="sb81">3</button>
-                            <button class="sb81">4</button>
-                        </div>
+        <div class="odio">
+            <div class="tabmenu">
+                <ul class="tab">
+                    <li class="tab_item active">
+                        <a href="#tabs-1"><img src="./img/head.png" alt="헤드셋"></a>
+                        <a href="#tabs-1">오디오북</a>
+                    </li>
+                    <li class="tab_item">
+                        <a href="#tabs-2"><img src="./img/phone3.png" alt="밀리뷰어"></a>
+                        <a href="#tabs-2">밀리뷰어</a>
+                    </li>
+                </ul>
+                <span class="tabclick"></span>
+            </div>
+        </div>
+        <div class="container8">
+            <div class="audiobook-section">
+                <div class="audiobook-left">
+                    <div class="icon-title">
+                        <img class="scon1" src="./img/오디오2.png" alt="아이콘">
+                        <h1>오디오북</h1>
                     </div>
-                    <div class="audiobook-right">
-                        <div class="sm81">
-                          <img class="sm82" src="./img/veiw1.png" alt="오디오북듣는사람">
-                          <img class="phone" src="./img/핸드폰1.png" alt="프레임"> 
+                    <div class="swiper-text-wrap">
+                        <div class="swiper-text">
+                            <p>
+                                <b>하루의 시작과 마무리를 오디오북과 함께</b><br>
+                                지하철에서도, 잠들기 전에도 독서하세요.
+                            </p>
+                        </div>
+                        <div class="swiper-text">
+                            <p>
+                                <b>귀로 듣다가 눈으로도 같이 보면</b><br>
+                                더 내용이 잘 이해돼요.
+                            </p>
+                        </div>
+                        <div class="swiper-text">
+                            <p>
+                                <b>30분만에 책 요약</b><br>
+                                핵심만 쏙 골라 읽어주는 오디오북
+                            </p>
+                        </div>
+                        <div class="swiper-text">
+                            <p>
+                                <b>이제훈부터 옥주현까지</b><br>
+                                셀럽이 읽어주는 오디오북
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>    
-    </div>
+                <div class="audiobook-right">
+                    <div class="sm81">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/veiw1.png" alt="듣는중">
+                                </div>
+                                <div class="swiper-slide">
+                                    <video src="./img/audiobook2.mp4" loop muted autoplay></video>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/v2.png" alt="3번쩨">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/v4.png" alt="4번째">
+                                </div>
+                            </div>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination sb8" id="audiobtn"></div>
+            </div>
+
+            <div class="audiobook-section">
+                <div class="veiw-left">
+                    <div class="icon-title2">
+                        <img class="scon2" src="./img/밀리뷰어2.png" alt="아이콘">
+                        <h1>밀리 뷰어</h1>
+                    </div>
+                    <div class="swiper-text-wrap2">
+                        <div class="swiper-text">
+                            <p>
+                                <b>어느 기기에서도 OK</b><br>
+                                스마트폰, 태블릿, PC, E ink 기기까지
+                            </p>
+                        </div>
+                        <div class="swiper-text">
+                            <p>
+                                <b>다크 모드</b><br>
+                                전자책이 눈 아프다는 편견은 버려요.
+                            </p>
+                        </div>
+                        <div class="swiper-text">
+                            <p>
+                                <b>자유로운 보기 설정</b><br>
+                                줄간격부터 폰트까지 내 마음대로 설정하면 더욱 편한 독서를 할 수 있어요.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                    <!-- <p class="subtitle2">독서를 위한 가장 <br> 완벽한 도구</p>
+                    <!-- <div class="sb88">
+                        <button class="sb82">1</button>
+                        <button class="sb82">2</button>
+                        <button class="sb82">3</button>
+                    </div> --> -->
+                <div class="veiw-right">
+                    <div class="sm83">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="./img/mi1.png" alt="뷰어1">
+                                </div>
+                                <div class="swiper-slide">
+                                    <video src="./img/darkmode2.mp4" loop muted autoplay></video>
+                                </div>
+                                <div class="swiper-slide">
+                                    <video src="./img/viewer_system2.mp4" loop muted autoplay></video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination sb88" id="veiwbtn"></div>
+            </div>
+        </div>
     <!-- 자주 묻는 질문 -->
     <div id="slider9">
         <div class="mt9">자주 묻는 질문</div>
@@ -282,7 +372,6 @@
             <div class="cbox4">무료 혜택은 누구나 받을 수 있나요?</div>
             <div class="cbox5">어떤 기기에서 사용할 수 있나요?</div>
         </div>
-    </div>
     </div>
 
     <footer>
@@ -333,11 +422,17 @@
 
     </footer>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="./js/book1.js"></script>
     <script src="./js/book2.js"></script>
     <script src="./js/book3.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/multtab.js"></script>
+    <script src="./js/swiper1.js"></script>
+    <script src="./js/swiper2/js"></script>
 
     <!-- Initialize Swiper -->
     <script>
